@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/reg"
+                android:textSize="30sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/d_id"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:id="@+id/d_id"
+                android:textSize="22sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:hint="@string/r_pass"
+                android:inputType="textPassword"
+                android:id="@+id/pass"
+                android:textSize="22sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/r_fname"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:id="@+id/fname"
+                android:textSize="22sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/r_lname"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:id="@+id/lname"
+                android:textSize="22sp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/m_no"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:id="@+id/m_no"
+                android:textSize="22sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="118dp"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/male"
+                    android:id="@+id/male"
+                    android:textSize="22sp" />
+
+                <RadioButton
+                    android:layout_width="123.3dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginRight="1dp"
+                    android:text="@string/female"
+                    android:id="@+id/female"
+                    android:textSize="22sp" />
+
+                <RadioButton
+                    android:layout_width="120.3dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/other"
+                    android:id="@+id/other"
+                    android:textSize="22sp" />
+            </RadioGroup>
+
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/city"
+                android:entries="@array/city" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/cbox"
+                android:id="@+id/cbox"
+                android:textSize="18sp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="22sp"
+                android:id="@+id/reg_btn"
+                android:text="@string/reg_btn"
+                tools:ignore="UsingOnClickInXml" />
+
+            <TextView
+                android:id="@+id/log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/go_login"
+                android:textColor="@color/reg_btn"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

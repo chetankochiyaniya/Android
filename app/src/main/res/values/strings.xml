@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Parivahan</string>
+
+
+    //Splash Screen
+    <string name="s_screen_pic">Splash Screen</string>
+    <string name="bychk">Powered by Chetan Kochiyaniya</string>
+
+
+    //login screen
+    <string name="h_uname">Enter Driver Id</string>
+    <string name="h_pass">Enter Password</string>
+    <string name="uname">Username</string>
+    <string name="pass">Password</string>
+    <string name="btnlogin">Login</string>
+    <string name="create_new">New User ? Register</string>
+
+
+    //Registration
+    <string name="reg">Registration</string>
+    <string name="d_id">Driver ID</string>
+    <string name="r_fname">First Name</string>
+    <string name="r_lname">Last Name</string>
+    <string name="r_pass">Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string-array name="city">
+        <item>Ahmedabad</item>
+        <item>Gandhinagar</item>
+        <item>Rajkot</item>
+        <item>Botad</item>
+        <item>Delhi</item>
+        <item>Surat</item>
+        <item>Other</item>
+    </string-array>
+    <string name="cbox">Accept terms &amp; Conditions</string>
+    <string name="m_no">Mobile Number</string>
+    <string name="reg_btn">Register</string>
+    <string name="go_login">Already Registered ? Login</string>
+
+
+    //FuelDataEntry
+    <string name="fData">Fuel Data Entry</string>
+    <string name="fuel">Fuel (Lr.)</string>
+    <string name="price">Price(Rs.)</string>
+    <string name="date">Date</string>
+    <string name="btnfuel">Add</string>
+    <string name="ometer">Odometer</string>
+    <string name="vno">Vehicle No</string>
+
+
+    //ConfirmFuelData
+    <string name="c">:</string>
+    <string name="info">Fuel Entry</string>
+    <string name="btnconf">Confirm</string>
+
+
+    //admin
+    <string name="admin">Click here to login as Admin</string>
+    <string name="wel_admin">Welcome , Admin</string>
+    <string name="btnview">View</string>
+    <string name="btnprice">Check</string>
+    <string name="desc">To view the report of fuel log, click the view button</string>
+    <string name="desc_fuel_cost">To check total fuel cost, click the check button</string>
+
+</resources>
